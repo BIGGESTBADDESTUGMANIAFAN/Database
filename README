@@ -42,3 +42,13 @@ NOTE: that you can merge steps 1 and 2 and just run
 	sqlite3 Volcanoes.db < CreateTable.sql
 This is good to do when you first start.
 
+Try these queries:
+1. SELECT type FROM volcanoes_tbl;
+
+2. SELECT Name,type FROM volcanoes_tbl;
+
+3. SELECT name, last_erupted FROM volcanoes_tbl WHERE last_erupted = 2018;
+
+4. SELECT name, type FROM volcanoes_tbl WHERE type = 'Violent';
+
+5. SELECT name, type FROM volcanoes_tbl WHERE type = 'Violent' AND last_erupted = 2018;
