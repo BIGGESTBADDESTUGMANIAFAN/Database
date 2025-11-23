@@ -17,7 +17,6 @@ STEPS
 #####
 1. Change directory to Lesson01.
 	Then do the following.
-
 2. Create an sqlite3 database:
 	touch Volcanoes.db 
    This will create a zero byte file. Next you create the table(s) in the database.
